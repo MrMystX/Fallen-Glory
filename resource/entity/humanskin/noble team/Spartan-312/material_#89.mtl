@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "markvbarmor_diff"}
+	{blend none}
+}

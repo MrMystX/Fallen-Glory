@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "elite_spec_ops_gauntlet_diffuse"}
+	{blend none}
+}

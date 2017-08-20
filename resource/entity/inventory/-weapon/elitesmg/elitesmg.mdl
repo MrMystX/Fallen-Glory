@@ -1,0 +1,51 @@
+;Exported by: MrMyst
+;Date:        Sun Aug 13 22:14:12 2017
+;File:        C:\Users\ayden\Desktop\Elitesmg\mg42.max
+{Skeleton
+	{animation
+		{sequence "on"}
+		{sequence "off"}
+	}
+	{bone "elitesmg"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "elitesmg.ply"}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 4.52502	-0.0880973	0.0494046}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.0511379	-0.349089	-0.00257906
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "elitesmg"}
+	{Matrix34
+		0.685362	0	0
+		0	0.685362	0
+		0	0	0.685362
+		1.29181	-0.029413	-0.23142
+	}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "elitesmg"}
+	{Matrix34
+		0.686752	0	0
+		0	0.686752	0
+		0	0	0.686752
+		1.21664	-0.0526793	-0.373921
+	}
+}

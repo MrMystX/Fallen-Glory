@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "odst_helmets_d"}
+	{blend none}
+}

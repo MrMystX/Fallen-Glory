@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "head_diffuse"}
+	{blend none}
+}

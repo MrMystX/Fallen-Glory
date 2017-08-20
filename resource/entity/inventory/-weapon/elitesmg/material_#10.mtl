@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "plasma_rifle"}
+	{blend none}
+}

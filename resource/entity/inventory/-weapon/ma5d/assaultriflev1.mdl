@@ -1,0 +1,51 @@
+;Exported by: MrMyst
+;Date:        Sun Aug 13 21:32:46 2017
+;File:        C:\Users\ayden\Desktop\New folder (2)\mg42.max
+{Skeleton
+	{animation
+		{sequence "on"}
+		{sequence "off"}
+	}
+	{bone "assaultriflev1"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "assaultriflev1.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.36966	-0.73335	-0.00257906
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 7.6832	1.20332	0.0494046}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "assaultriflev1"}
+	{Matrix34
+		0.740308	0	0
+		0	0.740308	0
+		0	0	0.740308
+		1.51075	0.545104	-0.199245
+	}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "assaultriflev1"}
+	{Matrix34
+		0.605217	0	0
+		0	0.605217	0
+		0	0	0.605217
+		1.27578	0.239514	-0.551052
+	}
+}

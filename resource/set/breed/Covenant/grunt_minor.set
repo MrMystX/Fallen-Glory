@@ -1,0 +1,53 @@
+{breed
+	{skin "cgf1_halo_gruntminor"}
+	{portrait usa_t2}
+	{icon squad2}
+	{icon_priority 2}
+	{voice gru}
+	{perks
+		{"health" "75%"
+		}
+		{"health_regeneration" "125%"
+		}
+		{"stamina" "125%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" human
+		}
+		{"speed" 1
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_1
+		}
+		{"personage" 1}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 8
+		}
+		{"lvl_3" 24
+		}
+		{"lvl_4" 48
+		}
+		{"lvl_5" 80
+		}
+	}
+	{inventory
+		{item "grenade anm8"}
+		{item "bandage" 5}
+		{item "plasmapistol" filling "plasmapis ammo" 100}
+		{item "plasmapis ammo"}
+		{in_hands 2}
+	}
+}

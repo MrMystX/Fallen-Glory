@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "elite_bodysuit_diffuse"}
+	{blend none}
+}

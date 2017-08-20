@@ -1,0 +1,53 @@
+;//	elitesmg standard
+
+{from "pattern bullet"
+	{tag "shell9 smg weapon bullet to_hand shoot_walking"}
+	{entity "elitesmg"}
+	{fireSound	"small_arms\elitesmg/"}
+	{fireSoundClose	"small_arms\elitesmg/"}
+	{reloadSound "elitesmg_shot/"}
+	
+	{filling "ammo plasma" 30 450}
+	{inventory
+		{size 4 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3}
+	{traceFreq 1}
+	{Automatic}
+
+	{rechargeTime 2.5}
+	("recoveryTime" r(900))
+ 	("speed" s(375))
+	("burst_smg")
+	("spreading_high")
+	("accuracy_smg")
+;	("accuracy_boost")
+	("recoil_low")
+	
+	("health_damage_9x19" d(375))
+	
+	{projectileDamage 2}
+	{projectileDamageClip 2}
+	{projectileDamageTable {12.5 3} {250 0}}
+
+	{range 120 125}
+	
+	{thirdpersonparams inherit "human default"
+		{level 2
+			{camera "human_zoom2"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+			{offset		3.0 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"	}
+			}
+		}
+	}
+}

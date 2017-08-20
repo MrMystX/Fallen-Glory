@@ -1,0 +1,47 @@
+;//	PlasmaPistol standard
+
+{from "pattern bullet"
+	{tag "shell9 pistol weapon bullet to_hand shoot_walking"}
+	{entity "PlasmaPistol"}
+	{fireSound	"small_arms/plasmapis/"}
+	{fireSoundClose "small_arms/plasmapis/"}
+	{reloadSound "small_arms/glock/"}
+	
+	{filling "ammo plasmapis" 30 60}
+	{inventory
+		{size 2 1}
+		{fsm "pistol"}
+		{weight 100 }
+	}
+	{mass 1.5}
+	{traceFreq 1}
+	{Automatic_ai}
+	
+	{rechargeTime 2.5}
+	("recoveryTime" r(500))
+ 	("speed" s(381))
+	("burst_pistol")
+	("spreading_high")
+	("accuracy_pistol")
+;	("accuracy_boost")
+	("recoil_high")
+
+	("health_damage_9x19" d(381))
+	
+	{ProjectileDamage 3}
+	{ProjectileDamageClip 3}
+	{projectileDamageTable {12.5 3} {250 0}}
+	
+	{range 120 125}
+	
+	{thirdpersonparams inherit "human default"
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_pistol"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_pistol_mask"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{viewoff 	"fps_arms"	}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ma37_diffuse"}
+	{blend none}
+}

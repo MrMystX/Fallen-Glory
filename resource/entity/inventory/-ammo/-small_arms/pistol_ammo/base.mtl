@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/inventory/ammo/pistol_ammo"}
+	{bump "$/inventory/ammo/pistol_ammo_bp"}
+	{specular "$/inventory/ammo/pistol_ammo_sp"}
+	{color "230 230 230 101"}
+	{blend test}
+}

@@ -1,0 +1,48 @@
+;//	carbine standard
+
+{from "pattern bullet"
+	{tag "shell7 rifle autorifle weapon bullet to_hand shoot_walking"}
+	{entity "carbine"}
+	{fireSound	"small_arms/carbine/"}
+	{fireSoundClose	"small_arms/carbine/"}
+	{reloadSound "small_arms/m16/"}
+	
+	{filling "ammo plasmab" 20 300}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 4}
+	{traceFreq 1}
+	{Automatic_ai}
+
+	{rechargeTime 3.0}
+	("recoveryTime" r(650))
+ 	("speed" s(735))
+	("burst_assault_short")
+	("spreading_high")
+	("accuracy_assault")
+	("accuracy_boost")
+	("recoil_high")
+	
+	("health_damage_7x51" d(735))
+	
+	{projectileDamage 5}
+	{projectileDamageClip 5}
+	{projectileDamageTable {22.5 5} {250 0}}
+
+	{range 165 170}
+	
+	{thirdpersonparams inherit "human default"
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_fal"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_fal_mask"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{viewoff 	"fps_arms"	}
+		}
+	}
+}
+

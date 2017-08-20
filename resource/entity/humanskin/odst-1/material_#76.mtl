@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "odst_chest_d"}
+	{blend none}
+}

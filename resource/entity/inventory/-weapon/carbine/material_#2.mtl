@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "carbine_blured"}
+	{blend none}
+}

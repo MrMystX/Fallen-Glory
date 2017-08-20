@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "storm_assault_rifle_default_diff"}
+	{blend none}
+}

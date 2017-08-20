@@ -1,0 +1,51 @@
+;Exported by: MrMyst
+;Date:        Mon Aug 14 11:22:50 2017
+;File:        C:\Users\ayden\Desktop\PlasmaPistol\mg42.max
+{Skeleton
+	{animation
+		{sequence "on"}
+		{sequence "off"}
+	}
+	{bone "default"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "default.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.287838	-0.0975013	-0.00257906
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 2.67922	0.765174	0.0494046}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "default"}
+	{Matrix34
+		0.613921	0	0
+		0	0.613921	0
+		0	0	0.613921
+		0.799041	0.30847	-0.273253
+	}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "default"}
+	{Matrix34
+		0.525851	0	0
+		0	0.525852	0
+		0	0	0.525852
+		0.77295	-0.287131	-0.723469
+	}
+}

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "plasmatrace"}
+	{blend add}
+	{glow 15.0}
+}

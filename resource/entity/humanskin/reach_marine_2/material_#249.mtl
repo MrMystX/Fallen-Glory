@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "eyeball_l"}
+	{blend none}
+}

@@ -1,0 +1,56 @@
+{breed
+	{skin "marine-light"}
+	{portrait usa_t2}
+	{icon squad2}
+	{icon_priority 2}
+	{nationality usa}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "125%"
+		}
+		{"stamina" "125%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" human
+		}
+		{"speed" 1
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"personage" 1}
+		{"medic"}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 8
+		}
+		{"lvl_3" 24
+		}
+		{"lvl_4" 48
+		}
+		{"lvl_5" 80
+		}
+	}
+	{inventory
+		{item "grenade m67"}
+		{item "grenade anm8"}
+		{item "knife_v1"}
+		{item "bandage" 5}
+		{item "9x19 ammo"}
+		{item "ma5d" filling "9x19 ammo" 30}
+		{in_hands 5}
+	}
+}

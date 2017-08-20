@@ -1,0 +1,53 @@
+{breed
+	{skin "cgf1_halo_eliteminor"}
+	{portrait usa_t2}
+	{icon squad2}
+	{icon_priority 2}
+	{voice eli}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "125%"
+		}
+		{"stamina" "125%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" human
+		}
+		{"speed" 1
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_2
+		}
+		{"personage" 1}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 8
+		}
+		{"lvl_3" 24
+		}
+		{"lvl_4" 48
+		}
+		{"lvl_5" 80
+		}
+	}
+	{inventory
+		{item "grenade anm8"}
+		{item "bandage" 5}
+		{item "plasmapistol" filling "plasmapis ammo" 100}
+		{item "plasmapis ammo"}
+		{in_hands 2}
+	}
+}

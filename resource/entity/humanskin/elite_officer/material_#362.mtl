@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "elite_officer_shoulder_diffuse"}
+	{blend none}
+}

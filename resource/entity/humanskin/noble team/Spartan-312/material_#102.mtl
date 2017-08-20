@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "markvbhelmet_diff"}
+	{blend none}
+}

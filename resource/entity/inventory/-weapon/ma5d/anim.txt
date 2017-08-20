@@ -1,0 +1,66 @@
+-= Animation: on, Node default =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 2 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: off, Node default =-
+	Frame 10 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 12 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: on, Node handle =-
+	Frame 0 {
+		Visibility 1
+		Position	-0.827517	-0.417333	-0.0025792
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 2 {
+		Visibility 1
+		Position	-0.827517	-0.417333	-0.0025792
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: off, Node handle =-
+	Frame 10 {
+		Visibility 1
+		Position	-0.827517	-0.417333	-0.0025792
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 12 {
+		Visibility 1
+		Position	-0.827517	-0.417333	-0.0025792
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: on, Node Foresight3 =-
+	Frame 0 {
+		Visibility 1
+		Position	11.2234	1.44369	0.0494066
+		Orientation	0 0 0 1
+	}
+	Frame 2 {
+		Visibility 1
+		Position	11.2234	1.44369	0.0494066
+		Orientation	0 0 0 1
+	}
+-= Animation: off, Node Foresight3 =-
+	Frame 10 {
+		Visibility 1
+		Position	11.2234	1.44369	0.0494066
+		Orientation	0 0 0 1
+	}
+	Frame 12 {
+		Visibility 1
+		Position	11.2234	1.44369	0.0494066
+		Orientation	0 0 0 1
+	}

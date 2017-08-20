@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "marine_attach_armor_diffuse"}
+	{blend none}
+}

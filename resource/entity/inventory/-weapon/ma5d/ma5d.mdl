@@ -1,0 +1,51 @@
+;Exported by: MrMyst
+;Date:        Mon Aug 14 00:40:13 2017
+;File:        C:\Users\ayden\Desktop\MA5D\mg42.max
+{Skeleton
+	{animation
+		{sequence "on"}
+		{sequence "off"}
+	}
+	{bone "default"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "default.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.827517	-0.417333	-0.0025792
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 11.2234	1.44369	0.0494066}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "default"}
+	{Matrix34
+		0.701413	0	0
+		0	0.701414	0
+		0	0	0.701414
+		3.09835	0.986984	-0.22202
+	}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "default"}
+	{Matrix34
+		0.621446	0	0
+		0	0.621446	0
+		0	0	0.621446
+		3.02944	0.68136	-0.515795
+	}
+}

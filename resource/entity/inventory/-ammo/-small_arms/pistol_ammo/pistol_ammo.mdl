@@ -1,0 +1,54 @@
+;Exported by: Артем
+;Date:        Tue Sep 29 13:57:35 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\Ammo\Pistol\Pistol+.max
+{Skeleton
+	{bone "ammo"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "ammo.ply"}
+			{VolumeView "ammo_lod1.ply"}
+		}
+		{bone "handle"
+			{Position -0.0508283	-0.0266564	0.244702}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.16537 1.00692 0.675667}
+	{Bone "ammo"}
+	{Position 0.0669731	0.0384233	0.323437}
+}
+{Volume "select"
+	{Box 5.06684 5.70816 2.59872}
+	{Bone "ammo"}
+	{Position -0.0457814	0.467348	0.239694}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.106992	2.34296	1.87172}
+			{lookat 0.0964815	-0.247544	0.0861402}
+			{fov 17.0615}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.493371	0.0460954	0.0667927}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0298733	-0.48255	0.127489}
+				{diffuse 0xcecece}
+			}
+			{"2"
+				{type directional}
+				{direction 0.36943	0.151509	-0.300944}
+			}
+		}
+	}
+}

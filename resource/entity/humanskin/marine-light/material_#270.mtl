@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "hank_face_d"}
+	{blend none}
+}
